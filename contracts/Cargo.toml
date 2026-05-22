@@ -1,0 +1,11 @@
+[package]
+name = "inaravest"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anchor-lang = "0.29.0"
+
+[[bin]]
+name = "inaravest"
+path = "src/lib.rs"

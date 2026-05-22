@@ -1,0 +1,15 @@
+[programs.devnet]
+inaravest = "your_program_id_here"
+
+[programs.mainnet]
+inaravest = "your_program_id_here"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "Devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha --require ts-node/register 'tests/**/*.ts'"
